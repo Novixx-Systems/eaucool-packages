@@ -1,0 +1,5 @@
+// Variables: $in = url to download, $out = output file name
+method Download
+	urlget $libdownload_out $in
+	writefile $out $libdownload_out
+stopmethod
